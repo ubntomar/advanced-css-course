@@ -3,10 +3,12 @@ COLORS:
 
 Light green: #7ed56f 
 Medium green: #55c57a
-Dark green: #28b485 
+Dark green: #28b485  
 
 */
-
+$color-primary:#55c57a;
+$color-primary-light:#7ed56f;
+$color-primary-dark:#28b485;
 *,
 *::after,
 *::before{
@@ -29,8 +31,8 @@ body{
 
 .header{
     height: 95vh;
-    background-image: linear-gradient(to right bottom, #7ed56fbd,#28b485c2),url('../img/hero.jpg');     
-    background-size: cover; /** acomodo simetricamente la imagen */ 
+    background-image: linear-gradient(to right bottom, $color-primary-light,red),url('../img/hero.jpg');     
+    background-size: cover; /** acomodo simetricamente la imagen */  
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
