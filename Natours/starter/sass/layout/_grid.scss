@@ -1,6 +1,5 @@
 section{
-    background-color: rgb(33, 48, 33);
-    color: #fff;
+    //color: #fff; 
 }
 .row {
     max-width: $grid-width;
@@ -12,7 +11,6 @@ section{
 
     [class^="col-"]{
         float:left; 
-        background-color: orangered; 
         &:not(:last-child){    
             margin-right: $gutter-horizontal;   
         }
